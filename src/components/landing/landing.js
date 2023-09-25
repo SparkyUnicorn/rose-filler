@@ -1,3 +1,4 @@
+
 export const Landing = () => {
   return (
     <>
@@ -27,13 +28,11 @@ export const Landing = () => {
                 Rose Hong Filler
               </div>
               <div className="paragraph-bigger cc-bigger-white-light">
-                Houston-based entrepreneur with 35 years of experience in the
-                fields of Business Development, Investments, Tax Services, Real
-                Estate, and Insurance Sales and Advisement.
+              Houston-based entrepreneur with 35 years of experience in the fields of Business Development, Investments, Tax Services, Real Estate, and Insurance Sales and Advisement.
                 <br />
               </div>
               <a
-                href="mailto:mail@business.com?subject=You&#x27;ve%20got%20mail!"
+                href="mailto:stayintexas@gmail.com?subject=You&#x27;ve%20got%20mail!"
                 className="button cc-contact-us w-inline-block contact-button"
               >
                 <div className="text-block">let&#x27;s connect</div>

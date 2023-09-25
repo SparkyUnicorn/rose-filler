@@ -19,7 +19,7 @@ export const Contact = () => {
                 </div>
               </div>
               <a
-                href="/contact"
+               href="mailto:stayintexas@gmail.com?subject=You&#x27;ve%20got%20mail!"
                 className="button cc-contact-us w-inline-block"
               >
                 <div>contact rose</div>

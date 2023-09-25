@@ -2,11 +2,7 @@ export const Footer = () => {
   return (
     <>
       <div className="footer-wrap">
-        <a
-          href="https://webflow.com/"
-          target="_blank"
-          className="webflow-link w-inline-block"
-        >
+      
           <img
             src="https://uploads-ssl.webflow.com/650c942bb66e5d29f2148d58/650c9e0b1e59e3be79d0868f_Rose%20Filler%20Temp%20Logo.png"
             width="110"
@@ -23,9 +19,9 @@ export const Footer = () => {
             className="webflow-logo-tiny"
           />
           <div className="paragraph-tiny">
-            Rose Hong Filler | 555-555-555 | stayintexas@gmail.com
+            Rose Hong Filler | 281-967-4800 | stayintexas@gmail.com
           </div>
-        </a>
+        
       </div>
     </>
   );
