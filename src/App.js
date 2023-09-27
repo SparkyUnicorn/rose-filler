@@ -1,18 +1,9 @@
-import "./App.css";
-import { Contact } from "./components/contact/contact";
-import { Footer } from "./components/footer/footer";
-import { Landing } from "./components/landing/landing";
-import { Nav } from "./components/nav/nav";
-import { Services } from "./components/services/services";
+import { Nav } from "./components/nav/nav"
+import { AppViews } from "./components/views/ApplicationViews"
 
 export const App = () => {
-  return (
-    <>
-      <Nav />
-      <Landing />
-      <Services />
-      <Contact />
-      <Footer />
+    return<>
+    <Nav/>
+    <AppViews />
     </>
-  );
-};
+}

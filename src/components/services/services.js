@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Services = () => {
   return (
     <>
@@ -27,9 +29,9 @@ export const Services = () => {
                   compliance with tax laws and maximizing your returns.
                 </p>
               </div>
-              <a href="/about" className="button cc-contact-us w-inline-block">
+              <Link to={"/tax"} className="button cc-contact-us w-inline-block">
                 <div>Learn More</div>
-              </a>
+              </Link>
             </div>
             <img
               src="https://uploads-ssl.webflow.com/650c942bb66e5d29f2148d58/650d0958bfac66737382deb2_Untitled%20design%20(5).png"
@@ -58,9 +60,9 @@ export const Services = () => {
                   tailored to meet your specific goals.
                 </p>
               </div>
-              <a href="/team" className="button cc-contact-us w-inline-block">
+              <Link to={"/realestate"} className="button cc-contact-us w-inline-block">
                 <div>Learn More</div>
-              </a>
+              </Link>
             </div>
             <img
               src="https://uploads-ssl.webflow.com/650c942bb66e5d29f2148d58/650d1a91fe8a952c40dd7f20_Screen%20Shot%202023-09-21%20at%2011.38.17%20PM%20Large.jpeg"
@@ -82,16 +84,16 @@ export const Services = () => {
                 <div className="label cc-light">About</div>
                 <h2 className="section-heading">Insurance</h2>
                 <p className="paragraph-light">
-                  In the realm of Insurance, I provide valuable consultation and
+                  In the realm of insurance, I provide valuable consultation and
                   sales services to safeguard your future and assets. I help you
                   select the right insurance policies, offering protection and
                   peace of mind, whether it&#x27;s for your health, home,
                   vehicle, or business.
                 </p>
               </div>
-              <a href="/about" className="button cc-contact-us w-inline-block">
+              <Link to={"/insurance"} className="button cc-contact-us w-inline-block">
                 <div>Learn More</div>
-              </a>
+              </Link>
             </div>
             <img
               src="https://uploads-ssl.webflow.com/650c942bb66e5d29f2148d58/650d105e78b7863a0af8ebae_Untitled%20design%20(7).png"
@@ -120,9 +122,9 @@ export const Services = () => {
                   on launching your business with confidence.
                 </p>
               </div>
-              <a href="/team" className="button cc-contact-us w-inline-block">
+              <Link to={"/smallbusiness"} className="button cc-contact-us w-inline-block">
                 <div>Learn More</div>
-              </a>
+              </Link>
             </div>
             <img
               src="https://uploads-ssl.webflow.com/650c942bb66e5d29f2148d58/650d12eb3ce1729e6e5407c5_Untitled%20design%20(8).png"

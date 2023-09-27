@@ -1,4 +1,8 @@
+import { Link } from "react-router-dom";
 export const Nav = () => {
+  
+
+
   return (
     <>
       <div
@@ -34,18 +38,19 @@ export const Nav = () => {
           </a>
           <div className="menu">
             <nav role="navigation" className="navigation-items w-nav-menu">
-              <a href="#" className="navigation-item w-nav-link">
-                Tax Preparation
-              </a>
-              <a href="#" className="navigation-item w-nav-link">
-                real estate
-              </a>
-              <a href="#" className="navigation-item w-nav-link">
-                insurance
-              </a>
-              <a href="#" className="navigation-item w-nav-link">
-                small business
-              </a>
+              <Link to={'/tax'} className="navigation-item w-nav-link">
+                Tax Services
+              </Link>
+              <Link to={'/realestate'} className="navigation-item w-nav-link">
+                Real Estate
+              </Link>
+              <Link to={'/insurance'} className="navigation-item w-nav-link">
+                Insurance
+              </Link>
+              <Link to={'/smallbusiness'} className="navigation-item w-nav-link">
+                Small Business
+              </Link>
+             
             </nav>
             <div className="menu-button w-nav-button">
               <img
@@ -57,7 +62,7 @@ export const Nav = () => {
             </div>
           </div>
           <a
-            href="mailto:mail@business.com?subject=You&#x27;ve%20got%20mail!"
+            href="mailto:stayintexas@gmail.com?subject=You&#x27;ve%20got%20mail!"
             className="button cc-contact-us w-inline-block"
           >
             <div className="text-block">Contact Rose</div>
